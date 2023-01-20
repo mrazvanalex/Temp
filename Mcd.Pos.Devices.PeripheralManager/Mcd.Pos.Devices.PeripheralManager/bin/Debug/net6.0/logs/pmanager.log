@@ -1,0 +1,4 @@
+2023-01-20 12:48:23.396 +02:00 [INF] DBG PMAnager: Enabled field for CashDrawer is : True
+2023-01-20 12:48:23.409 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-20 12:48:23.409 +02:00 [INF] Hosting environment: Production
+2023-01-20 12:48:23.410 +02:00 [INF] Content root path: E:\git\Tremend\Mcd\PManager V2\Mcd.Pos.Devices.PeripheralManager\Mcd.Pos.Devices.PeripheralManager\bin\Debug\net6.0
