@@ -1,6 +1,7 @@
 using Mcd.Pos.Devices.PeripheralManager.CashDrawer;
 using Mcd.Pos.Devices.PeripheralManager.Config;
 using Mcd.Pos.Devices.PeripheralManager.ConfigWriter;
+using System.Diagnostics;
 using System.Reflection;
 
 namespace Mcd.Pos.Devices.PeripheralManager
@@ -44,6 +45,8 @@ namespace Mcd.Pos.Devices.PeripheralManager
             if (managerConfig.Enabled)
             {
                 id = cdService.StartCashDrawer();
+
+
             }
 
             while (!cancellationToken.IsCancellationRequested)

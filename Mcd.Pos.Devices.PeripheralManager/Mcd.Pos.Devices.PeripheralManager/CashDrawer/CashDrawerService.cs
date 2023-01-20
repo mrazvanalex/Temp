@@ -29,22 +29,31 @@ namespace Mcd.Pos.Devices.PeripheralManager.CashDrawer
             var path = $"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}";
             cdProcess.StartInfo.FileName = $"{Directory.GetParent(path).FullName}\\{_managerConfig.CashDrawerLocation}";
             //_cdProcess.StartInfo.Arguments = $" -c {_managerConfig.ConfigurationLocation}/{_managerConfig.ConfigurationName}";
+
+
+
+            System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
+            procInfo.FileName = ("C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe");
+            System.Diagnostics.Process.Start(procInfo);
+
+            //System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
+            //procInfo.FileName = ("mspaint.exe");
+            //System.Diagnostics.Process.Start(procInfo);
+
             try
             {
                 bool started = false;
-
+                Process.Start("C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe");
                 started = cdProcess.Start();
-                _processes.Add(cdProcess.Id, cdProcess);
+                _processes.Add(cdProcess.Id, cdProcess);    
 
                 return cdProcess.Id;
             }
             catch (Exception ex)
             {
-                throw new Exception(path, ex);
                 _logger.LogError("Err occured in PManager", ex);
+                throw new Exception(path, ex);
             }
-
-             return 0;
 
 
             //try
