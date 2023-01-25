@@ -1,0 +1,12 @@
+2023-01-23T15:43:33.0631046+02:00 [INF] () Initalizing Application ..
+2023-01-23T15:43:33.0942690+02:00 [INF] () CashDrawer Application starting..
+2023-01-23T15:43:33.1096762+02:00 [INF] () CashDrawerDriver loaded successfully.
+2023-01-23T15:43:33.1105165+02:00 [INF] () CashDrawer Application started : True
+2023-01-23T17:38:00.6240680+02:00 [INF] () Initalizing Application ..
+2023-01-23T17:38:00.6619152+02:00 [INF] () CashDrawer Application starting..
+2023-01-23T17:38:00.6837934+02:00 [INF] () CashDrawerDriver loaded successfully.
+2023-01-23T17:38:00.6852664+02:00 [INF] () CashDrawer Application started : True
+2023-01-23T17:38:00.7881843+02:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:8123"
+2023-01-23T17:38:00.7945012+02:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-01-23T17:38:00.7959941+02:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-01-23T17:38:00.7967964+02:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\git\Temp\Mcd.Pos.Devices.PeripheralManager\Mcd.Pos.Devices.PeripheralManager\bin\x86\Debug\CashDrawer"

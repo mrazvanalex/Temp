@@ -1,0 +1,24 @@
+2023-01-20T15:56:33.8730096+02:00 [INF] () Initalizing Application ..
+2023-01-20T15:56:33.9268035+02:00 [INF] () CashDrawer Application starting..
+2023-01-20T15:56:33.9560349+02:00 [INF] () CashDrawerDriver loaded successfully.
+2023-01-20T15:56:33.9587739+02:00 [INF] () CashDrawer Application started : True
+2023-01-20T15:56:34.3062547+02:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:8123"
+2023-01-20T15:56:34.3140373+02:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-01-20T15:56:34.3189347+02:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2023-01-20T15:56:34.3253639+02:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\git\Temp\Vinoth"
+2023-01-20T15:57:36.7357301+02:00 [INF] () Initalizing Application ..
+2023-01-20T15:57:36.7864484+02:00 [INF] () CashDrawer Application starting..
+2023-01-20T15:57:36.8113034+02:00 [INF] () CashDrawerDriver loaded successfully.
+2023-01-20T15:57:36.8131036+02:00 [INF] () CashDrawer Application started : True
+2023-01-20T15:57:36.9295838+02:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:8123"
+2023-01-20T15:57:36.9358308+02:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-01-20T15:57:36.9370729+02:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2023-01-20T15:57:36.9381972+02:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\git\Temp\Vinoth"
+2023-01-20T16:12:15.9505141+02:00 [INF] () Initalizing Application ..
+2023-01-20T16:12:15.9827967+02:00 [INF] () CashDrawer Application starting..
+2023-01-20T16:12:16.5040202+02:00 [INF] () CashDrawerDriver loaded successfully.
+2023-01-20T16:12:16.5074364+02:00 [INF] () CashDrawer Application started : True
+2023-01-20T16:12:16.6330370+02:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:8123"
+2023-01-20T16:12:16.6415811+02:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-01-20T16:12:16.6448463+02:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Production"
+2023-01-20T16:12:16.6481272+02:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\git\Temp\Mcd.Pos.Devices.PeripheralManager\Mcd.Pos.Devices.PeripheralManager\bin\x86\Debug\CashDrawer"

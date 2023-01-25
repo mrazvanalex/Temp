@@ -25,35 +25,51 @@ namespace Mcd.Pos.Devices.PeripheralManager.CashDrawer
 
         public int StartCashDrawer()
         {
-            var cdProcess = new Process();
-            var path = $"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}";
-            cdProcess.StartInfo.FileName = $"{Directory.GetParent(path).FullName}\\{_managerConfig.CashDrawerLocation}";
+            //var cdProcess = new Process();
+            //var path = $"{Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)}";
+            //cdProcess.StartInfo.FileName = $"{Directory.GetParent(path).FullName}\\{_managerConfig.CashDrawerLocation}";
             //_cdProcess.StartInfo.Arguments = $" -c {_managerConfig.ConfigurationLocation}/{_managerConfig.ConfigurationName}";
 
 
+            //using var process = new Process();
 
-            System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
-            procInfo.FileName = ("C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe");
-            System.Diagnostics.Process.Start(procInfo);
+            //process.StartInfo.FileName = "C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe";
+
+            //var x = process.Start();
+
+            //System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
+            //procInfo.FileName = ("C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe");
+            //System.Diagnostics.Process.Start(procInfo);
 
             //System.Diagnostics.ProcessStartInfo procInfo = new System.Diagnostics.ProcessStartInfo();
             //procInfo.FileName = ("mspaint.exe");
             //System.Diagnostics.Process.Start(procInfo);
 
-            try
-            {
-                bool started = false;
-                Process.Start("C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe");
-                started = cdProcess.Start();
-                _processes.Add(cdProcess.Id, cdProcess);    
+            var cdProcess = new Process();
+            cdProcess.StartInfo.FileName = $"C:\\git\\Temp\\Mcd.Pos.Devices.PeripheralManager\\Mcd.Pos.Devices.PeripheralManager\\bin\\x86\\Debug\\CashDrawer\\McD.Pos.Devices.CashDrawer.exe";
+            //_cdProcess.StartInfo.Arguments = $" -c {_managerConfig.ConfigurationLocation}/{_managerConfig.ConfigurationName}";
 
-                return cdProcess.Id;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError("Err occured in PManager", ex);
-                throw new Exception(path, ex);
-            }
+            bool started = false;
+
+            started = cdProcess.Start();
+            _processes.Add(cdProcess.Id, cdProcess);
+
+            return cdProcess.Id;
+
+            //try
+            //{
+            //    bool started = false;
+            //    Process.Start("notepad.exe");
+            //    started = cdProcess.Start();
+            //    _processes.Add(cdProcess.Id, cdProcess);    
+
+            //    return cdProcess.Id;
+            //}
+            //catch (Exception ex)
+            //{
+            //    _logger.LogError("Err occured in PManager", ex);
+            //    throw new Exception(path, ex);
+            //}
 
 
             //try

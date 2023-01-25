@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.PeripheralManager", "Pos.PeripheralManager\Pos.PeripheralManager.csproj", "{871BAF61-10F2-49B3-A32F-3669D8C1BB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pos.PeripheralManager.Test", "Pos.PeripheralManager.Test\Pos.PeripheralManager.Test.csproj", "{EC08FE2B-A4ED-4794-BEF3-9E8A77D3CEB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871BAF61-10F2-49B3-A32F-3669D8C1BB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871BAF61-10F2-49B3-A32F-3669D8C1BB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871BAF61-10F2-49B3-A32F-3669D8C1BB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871BAF61-10F2-49B3-A32F-3669D8C1BB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC08FE2B-A4ED-4794-BEF3-9E8A77D3CEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC08FE2B-A4ED-4794-BEF3-9E8A77D3CEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC08FE2B-A4ED-4794-BEF3-9E8A77D3CEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC08FE2B-A4ED-4794-BEF3-9E8A77D3CEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03CCDEC1-B03D-4533-903A-6AA9F482AE67}
+	EndGlobalSection
+EndGlobal
